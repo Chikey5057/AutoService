@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="83.0" prefWidth="134.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="h8.chikey.controls.ControllerCreate">
+   <children>
+      <Button fx:id="buttonEXIT" layoutX="41.0" layoutY="31.0" mnemonicParsing="false" text="EXIT" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="h8.chikey.controls.ControllerClient">
+   <children>
+      <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="341.0" prefWidth="526.0">
+        <columns>
+          <TableColumn fx:id="tableID" prefWidth="46.0" text="ID" />
+          <TableColumn fx:id="tableFirstName" prefWidth="76.0" text="FirstName" />
+            <TableColumn fx:id="tableLastName" prefWidth="94.0" text="Last" />
+            <TableColumn fx:id="tablePatron" prefWidth="91.0" text="Patronomic" />
+            <TableColumn fx:id="tableBirthday" prefWidth="113.0" text="Birthday" />
+        </columns>
+      </TableView>
+      <Button fx:id="buttonCreate" layoutX="234.0" layoutY="363.0" mnemonicParsing="false" text="Create" />
+   </children>
+</AnchorPane>
